@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2F9C4A28B254E600169058 /* WeatherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F9C4928B254E600169058 /* WeatherPage.swift */; };
+		1A2F9C4C28B2618F00169058 /* ChoosingCityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F9C4B28B2618F00169058 /* ChoosingCityPage.swift */; };
+		1A2F9C4E28B2639600169058 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F9C4D28B2639600169058 /* City.swift */; };
 		1A66822F28B0FD7700120D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66822E28B0FD7700120D20 /* AppDelegate.swift */; };
 		1A66823128B0FD7700120D20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66823028B0FD7700120D20 /* SceneDelegate.swift */; };
 		1A66823328B0FD7700120D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66823228B0FD7700120D20 /* ViewController.swift */; };
@@ -14,9 +17,13 @@
 		1A66823928B0FD7700120D20 /* Learning_API.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A66823728B0FD7700120D20 /* Learning_API.xcdatamodeld */; };
 		1A66823B28B0FD7C00120D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A66823A28B0FD7C00120D20 /* Assets.xcassets */; };
 		1A66823E28B0FD7C00120D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A66823C28B0FD7C00120D20 /* LaunchScreen.storyboard */; };
+		74DA5944D969D315261BB735 /* Pods_Learning_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E78DF5A0A1579090AD2F54B /* Pods_Learning_API.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2F9C4928B254E600169058 /* WeatherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPage.swift; sourceTree = "<group>"; };
+		1A2F9C4B28B2618F00169058 /* ChoosingCityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingCityPage.swift; sourceTree = "<group>"; };
+		1A2F9C4D28B2639600169058 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		1A66822B28B0FD7700120D20 /* Learning API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A66822E28B0FD7700120D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A66823028B0FD7700120D20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		1A66823A28B0FD7C00120D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A66823D28B0FD7C00120D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A66823F28B0FD7C00120D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DA779ACC226CF4787F64E4 /* Pods-Learning API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning API.debug.xcconfig"; path = "Target Support Files/Pods-Learning API/Pods-Learning API.debug.xcconfig"; sourceTree = "<group>"; };
+		6E78DF5A0A1579090AD2F54B /* Pods_Learning_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31BA5E13B429264B303927B /* Pods-Learning API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning API.release.xcconfig"; path = "Target Support Files/Pods-Learning API/Pods-Learning API.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DA5944D969D315261BB735 /* Pods_Learning_API.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				1A66822D28B0FD7700120D20 /* Learning API */,
 				1A66822C28B0FD7700120D20 /* Products */,
+				913FABB96FA0C9AE36CADC56 /* Pods */,
+				EC13F7677234FD46333A2468 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +79,28 @@
 				1A66823C28B0FD7C00120D20 /* LaunchScreen.storyboard */,
 				1A66823F28B0FD7C00120D20 /* Info.plist */,
 				1A66823728B0FD7700120D20 /* Learning_API.xcdatamodeld */,
+				1A2F9C4928B254E600169058 /* WeatherPage.swift */,
+				1A2F9C4B28B2618F00169058 /* ChoosingCityPage.swift */,
+				1A2F9C4D28B2639600169058 /* City.swift */,
 			);
 			path = "Learning API";
+			sourceTree = "<group>";
+		};
+		913FABB96FA0C9AE36CADC56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20DA779ACC226CF4787F64E4 /* Pods-Learning API.debug.xcconfig */,
+				F31BA5E13B429264B303927B /* Pods-Learning API.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC13F7677234FD46333A2468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E78DF5A0A1579090AD2F54B /* Pods_Learning_API.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A66824228B0FD7C00120D20 /* Build configuration list for PBXNativeTarget "Learning API" */;
 			buildPhases = (
+				0EB42CE89F16C795D4F5DBED /* [CP] Check Pods Manifest.lock */,
 				1A66822728B0FD7700120D20 /* Sources */,
 				1A66822828B0FD7700120D20 /* Frameworks */,
 				1A66822928B0FD7700120D20 /* Resources */,
+				13D3CE1118F50C7172BB8C1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +171,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EB42CE89F16C795D4F5DBED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learning API-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D3CE1118F50C7172BB8C1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learning API/Pods-Learning API-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learning API/Pods-Learning API-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learning API/Pods-Learning API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A66822728B0FD7700120D20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2F9C4A28B254E600169058 /* WeatherPage.swift in Sources */,
 				1A66823328B0FD7700120D20 /* ViewController.swift in Sources */,
 				1A66822F28B0FD7700120D20 /* AppDelegate.swift in Sources */,
+				1A2F9C4C28B2618F00169058 /* ChoosingCityPage.swift in Sources */,
 				1A66823928B0FD7700120D20 /* Learning_API.xcdatamodeld in Sources */,
 				1A66823128B0FD7700120D20 /* SceneDelegate.swift in Sources */,
+				1A2F9C4E28B2639600169058 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +366,7 @@
 		};
 		1A66824328B0FD7C00120D20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DA779ACC226CF4787F64E4 /* Pods-Learning API.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +395,7 @@
 		};
 		1A66824428B0FD7C00120D20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31BA5E13B429264B303927B /* Pods-Learning API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
